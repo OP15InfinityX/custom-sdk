@@ -29,12 +29,12 @@ public class DeviceKeysConstants {
         PLAY_PAUSE_MUSIC,
         SCREENSHOT,
         PARTIAL_SCREENSHOT,
+        CYCLE_RINGER_MODE,
         TORCH,
         VOLUME_PANEL,
         CLEAR_ALL_NOTIFICATIONS,
         NOTIFICATIONS,
-        QS_PANEL,
-        RINGER_MODES;
+        QS_PANEL;
 
         public static Action fromIntSafe(int id) {
             if (id < NOTHING.ordinal() || id > Action.values().length) {
